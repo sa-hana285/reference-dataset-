@@ -1,1 +1,2 @@
-# reference-dataset-
+# reference-dataset 
+This project is a text-based image retrieval system that allows users to find the most relevant image by entering a natural language prompt. It uses the SentenceTransformer model to convert image descriptions into numerical embeddings and indexes them with FAISS for fast similarity search. When a user inputs a prompt, the system encodes it, finds the closest matching description using FAISS, and displays the corresponding image. The application works with a CSV file (data1.csv) containing image filenames and their descriptions, making it easy to retrieve images based on semantic meaning rather than exact keyword matches.
